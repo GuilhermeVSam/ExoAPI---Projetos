@@ -37,6 +37,8 @@ namespace ExoAPI.Repositories
                 projetosearch.Titulo = projeto.Titulo;
                 projetosearch.DataDeInicio = projeto.DataDeInicio;
                 projetosearch.Tecnologias = projeto.Tecnologias;
+                projetosearch.Requisitos = projeto.Requisitos;
+                projetosearch.Área = projeto.Área;
                 projetosearch.StatusDoProjeto = projeto.StatusDoProjeto;
             }
 
