@@ -8,3 +8,11 @@ O PMM é capaz de:
 - Deletar um projeto. :white_check_mark:
 - Atualizar todas as informações de um projeto. :white_check_mark:
 - Permitir que somente usuários autorizados exerçam certas funções (Deletar um projeto). :white_check_mark:
+
+Requisitos:
+- Banco de Dados (SQL)
+- SSMS (para a criação das tabelas Projetos e Usuários em seu banco de dados)
+- Pacotes NuGet:
+    - Microsoft.AspNetCore.Authentication.JwtBearer
+    - Microsoft.EntityFrameworkCore.SqlServer
+    - Swashbuckle.AspNetCore
