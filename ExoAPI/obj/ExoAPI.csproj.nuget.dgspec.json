@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guiwo\\Documents\\Senai-API\\ExoAPI\\ExoAPI\\ExoAPI\\ExoAPI.csproj": {}
+    "C:\\Users\\guiwo\\Documents\\GitHub\\ExoAPI---Projetos\\ExoAPI\\ExoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guiwo\\Documents\\Senai-API\\ExoAPI\\ExoAPI\\ExoAPI\\ExoAPI.csproj": {
+    "C:\\Users\\guiwo\\Documents\\GitHub\\ExoAPI---Projetos\\ExoAPI\\ExoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guiwo\\Documents\\Senai-API\\ExoAPI\\ExoAPI\\ExoAPI\\ExoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\guiwo\\Documents\\GitHub\\ExoAPI---Projetos\\ExoAPI\\ExoAPI.csproj",
         "projectName": "ExoAPI",
-        "projectPath": "C:\\Users\\guiwo\\Documents\\Senai-API\\ExoAPI\\ExoAPI\\ExoAPI\\ExoAPI.csproj",
+        "projectPath": "C:\\Users\\guiwo\\Documents\\GitHub\\ExoAPI---Projetos\\ExoAPI\\ExoAPI.csproj",
         "packagesPath": "C:\\Users\\guiwo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guiwo\\Documents\\Senai-API\\ExoAPI\\ExoAPI\\ExoAPI\\obj\\",
+        "outputPath": "C:\\Users\\guiwo\\Documents\\GitHub\\ExoAPI---Projetos\\ExoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guiwo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,7 +50,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

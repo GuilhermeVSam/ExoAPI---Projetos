@@ -1,5 +1,6 @@
 ﻿using ExoAPI.Models;
 using ExoAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExoAPI.Controllers
@@ -7,6 +8,8 @@ namespace ExoAPI.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "1")] //Define qual tipo de usuário tem acesso à lista de projetos.
+
     public class ProjetosController : Controller
     {
         private readonly ProjetosRepository _projetoRepository;
@@ -45,6 +48,7 @@ namespace ExoAPI.Controllers
                 throw;
             }
         }
+
         [HttpPost]
         public IActionResult Cadastrar(Projetos projeto)
         {
@@ -58,6 +62,7 @@ namespace ExoAPI.Controllers
                 throw;
             }
         }
+
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Projetos projeto)
         {
@@ -72,6 +77,7 @@ namespace ExoAPI.Controllers
             }
 
         }
+
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {

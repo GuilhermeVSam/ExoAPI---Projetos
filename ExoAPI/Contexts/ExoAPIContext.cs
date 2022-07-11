@@ -15,9 +15,10 @@ namespace ExoAPI.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source = DESKTOP-JPQNRAT; initial catalog = ExoAPI; Integrated Security = true");
+                optionsBuilder.UseSqlServer("Data Source = PLAYSTATION-5\\SQLEXPRESS; initial catalog = ExoAPI; Integrated Security = true");
             }
         }
             public DbSet<Projetos> Projetos { get; set; }
+            public DbSet<Usuario> Usuarios { get; set; }
     }
 }
